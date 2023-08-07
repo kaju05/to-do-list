@@ -1,0 +1,68 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: cursive;
+}
+.canvas{
+    width: 60vw;
+    height: 90vh;
+    background-color: rgb(253, 253, 3);
+    border: 5px solid red;
+    margin-left: 20vw;
+    padding: 2vw;
+}
+.input{
+    width: fit-content;
+    height: 5vh;
+    background-color: green;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vw;
+}
+input{
+    margin-left: 1vw;
+    height: 3vh;
+    border-radius: 100px;
+}
+.add{
+    margin: 1vw;
+    font-size: larger;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: palevioletred;
+}
+.list-item{
+    width: 50vw;
+    height: fit-content;
+    padding: 1vw;
+    margin: 1vw;
+    background-color: orange;
+    border: solid gold;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+span{
+    order: -1;
+    font-size: 19px;
+}
+.del-btn{
+    order:5;
+    font-size: larger;
+    padding: 2px;
+    background-color: red;
+    border-radius: 200px;
+}
+.edit-btn{
+    position:relative;
+    margin-left: 35vw;
+    font-size: larger;
+    padding: 2px;
+    background-color: aquamarine;
+    border-radius: 200px;
+}
+.list-item:hover{
+    background-color:plum ;
+}
