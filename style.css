@@ -5,7 +5,7 @@
 }
 .canvas{
     width: 60vw;
-    height: 100vh;
+    height: fit-content;
     background-color: rgb(253, 253, 3);
     border: 5px solid red;
     margin-left: 20vw;
